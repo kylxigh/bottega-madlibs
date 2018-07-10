@@ -7,7 +7,7 @@ class Card extends Component {
         return(
             <div className="card">
                 {Input('Color')}
-                {Input('Plural Noun')}
+                {Input('Plural Nouns')}
             </div>
         )
     }
