@@ -10,7 +10,9 @@
 
 .header{
     align-self: center;
-
+text-align: center;
+font-family: 'Monserrat';
+ color: white;
 &__skew {
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 25%, 0 50%);
     clip-path: polygon(0 0, 100% 0%, 100% 25%, 0 50%);
@@ -23,7 +25,20 @@
     width: 100vw;
     background-color: #444444;
     border-bottom: 10px solid #00CB79;
+}
 
+h1 {
+
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+}
+p{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 19px;
+    width: 403px;
 }
 &__border {
     -webkit-clip-path: polygon(0 44%, 100% 20%, 100% 25%, 0 53%);
