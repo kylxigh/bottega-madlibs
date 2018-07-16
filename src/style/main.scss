@@ -40,6 +40,8 @@ p{
     line-height: 19px;
     width: 403px;
 }
+
+
 &__border {
     -webkit-clip-path: polygon(0 44%, 100% 20%, 100% 25%, 0 53%);
     clip-path: polygon(0 44%, 100% 20%, 100% 25%, 0 53%);
@@ -65,24 +67,29 @@ p{
 
     display: grid;
     grid-template-rows: 1fr 50px;
+    background-color: white;
 
     &__inputs{
-        background-color: skyblue;
+      //  background-color: skyblue;
         display:grid;
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        align-items: center;
 
     }
 }
 
 .input {
+    display: grid;
+    grid-template-columns: [number-s] 26px [number-e input-s] 1fr [input-]
     &__title {
-
+        grid-column: input-s/input-e;
     }
     input {
-
+        grid-column: input-s/input-e;
     }
     &__number {
-
+        grid-column: input-s/input-e;
     }
 }
