@@ -99,6 +99,7 @@ p{
 
     button{
         justify-self:center;
+        transform: translateY(-25px);
     }
 
 
@@ -111,6 +112,22 @@ p{
             background-color: #45B0E5;
             @include button;
     }
+
+    &__content{
+        width: 1100px;
+        height: 297px;
+        background-color: #F2F2F2;
+
+
+        justify-self: center;
+
+        p{
+            padding:50px 47px;
+            font-family: 'Montserrat';
+            font-size: 16px;
+            font-weight: 300;
+        }
+    } 
 }
 
 .input {
