@@ -9,6 +9,13 @@
     text-align: center;
 }
 
+.gray {
+    background: #b3b3b3;
+}
+
+.green{
+    background: #00CB79;
+}
 .home{
     position: relative;
     background-color: rgba(207, 207, 207, 0.06);
@@ -99,7 +106,7 @@ p{
 
     button{
         justify-self:center;
-        transform: translateY(-25px);
+        transform: translateY(50%);
     }
 
 
@@ -120,8 +127,10 @@ p{
 
 
         justify-self: center;
+        margin-bottom: 54px;
 
         p{
+            line-height:24px;
             padding:50px 47px;
             font-family: 'Montserrat';
             font-size: 16px;
@@ -170,8 +179,6 @@ p{
     }
     &__number {
         grid-column: number-s/number-e;
-
-        background-color: #00CB79;
         color: white;
         font-size: 20px;
         line-height: 24px;
