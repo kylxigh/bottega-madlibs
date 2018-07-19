@@ -22,7 +22,7 @@
     display: grid;
     justify-items: center;
     //align-items: center;
-    grid-template-rows: [header-s] 218px [header-e card-s] minmax(736px,999px)
+    grid-template-rows: [header-s] 218px [header-e card-s] minmax(736px,994px) [card-e];
 }
 
 
@@ -106,18 +106,20 @@ p{
 
     button{
         justify-self:center;
-        transform: translateY(50%);
+
     }
 
 
     &__generate {
             background-color: #00CB74;
             @include button;
+            transform: translateY(-300px);
 
     }
     &__clear{
             background-color: #45B0E5;
             @include button;
+             transform: translateY(50%);
     }  
 
     &__content{
@@ -137,8 +139,7 @@ p{
             background-color: black;
             border-radius: 50%;
             font-size: 18px;
-            line-height: 22px;
-            
+
             text-align: center;
             color: white;
             //padding-top: 3px;
